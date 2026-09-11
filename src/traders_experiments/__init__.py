@@ -1,2 +1,3 @@
-def main() -> None:
-    print("Hello from traders-experiments!")
+from traders_experiments.entrypoint import app
+
+__all__ = ("app",)
